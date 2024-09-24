@@ -1,7 +1,3 @@
-Here's an updated version of the `README.md` including instructions on how to install the package via `git+`.
-
----
-
 # Flask Status Package
 
 A simple Flask add-on that provides a status page to monitor the health of your web application, including system metrics and database connectivity.
@@ -156,7 +152,3 @@ To run the tests:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-This updated README provides clear instructions for users on how to install the package directly via GitHub using `git+`.
