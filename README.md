@@ -1,3 +1,7 @@
+Here's an updated version of the `README.md` including instructions on how to install the package via `git+`.
+
+---
+
 # Flask Status Package
 
 A simple Flask add-on that provides a status page to monitor the health of your web application, including system metrics and database connectivity.
@@ -10,25 +14,46 @@ A simple Flask add-on that provides a status page to monitor the health of your 
 
 ## Installation
 
-1. Clone the repository or download the source code.
+### Option 1: Install from GitHub (recommended)
+
+You can install the package directly from GitHub using `pip`:
+
+```bash
+pip install git+https://github.com/botsarefuture/Flask-status.git
+```
+
+This will download and install the package and its dependencies automatically.
+
+### Option 2: Clone and Install Locally
+
+1. Clone the repository:
 
     ```bash
     git clone https://github.com/botsarefuture/Flask-status.git
-    cd Flask-status
     ```
 
-2. Install the package and its dependencies:
+2. Navigate to the package directory:
+
+    ```bash
+    cd status-package
+    ```
+
+3. Install the package in editable mode:
 
     ```bash
     pip install -e .
     ```
 
-3. Add the following dependencies to your project's `requirements.txt` if you're using one:
+4. Alternatively, you can add the following line to your `requirements.txt` for future installations:
 
     ```
-    Flask
-    psutil
-    pymongo
+    git+https://github.com/botsarefuture/Flask-status.git
+    ```
+
+5. If your project has a `requirements.txt` file, just run:
+
+    ```bash
+    pip install -r requirements.txt
     ```
 
 ## Usage
@@ -131,3 +156,7 @@ To run the tests:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+This updated README provides clear instructions for users on how to install the package directly via GitHub using `git+`.
